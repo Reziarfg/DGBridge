@@ -1,0 +1,26 @@
+LIBRARY "optixu.1.dll"
+EXPORTS
+    rtuCUDACompileFile
+    rtuCUDACompileString
+    rtuCUDAGetCompileResult
+    rtuCreateClusteredMesh
+    rtuCreateClusteredMeshExt
+    rtuGetSizeForRTformat
+    rtuNameForType
+    rtuTraversalCreate
+    rtuTraversalDestroy
+    rtuTraversalGetAccelData
+    rtuTraversalGetAccelDataSize
+    rtuTraversalGetErrorString
+    rtuTraversalMapOutput
+    rtuTraversalMapRays
+    rtuTraversalMapResults
+    rtuTraversalPreprocess
+    rtuTraversalSetAccelData
+    rtuTraversalSetMesh
+    rtuTraversalSetOption
+    rtuTraversalSetTriangles
+    rtuTraversalTraverse
+    rtuTraversalUnmapOutput
+    rtuTraversalUnmapRays
+    rtuTraversalUnmapResults
